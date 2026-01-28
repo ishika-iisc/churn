@@ -3,3 +3,5 @@
 # tells python that app, is a __package__
 # this allows imports like 
 # from app.schema import customerdata
+
+# __init__.py
