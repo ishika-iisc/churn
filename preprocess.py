@@ -50,3 +50,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 print("Train shape:", X_train.shape)
 print("Test shape:", X_test.shape)
 
+X_train.to_csv("data/X_train.csv",index=False)
+X_test.to_csv("data/X_test.csv",index=False)
+y_train.to_csv("data/y_train.csv",index=False)
+y_test.to_csv("data/y_test.csv",index=False)
